@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-	printf("hello, world!\n");
+	printf(" my name is %s  also%d  %f  \n","myoung",12,3.3);
 
 }
