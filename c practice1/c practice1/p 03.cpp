@@ -1,15 +1,22 @@
 #include <stdio.h>
 
+
 int main() {
-	int a;
-	scanf_s("%d", &a);
+	int n;
+	scanf_s("%d", &n);
+	
+	for (int i = 1; i <= n; i++) {
 
-bool  q = a <10 && a>3;
-	bool w = a <6 || a==4;
-	bool e = !w;
+		
+		for (int j = 1; j <= 2*i-1; j++) {
 
+			printf("%d", j);
+		}
+		printf("\n");
 
-	printf("%d,%d,%d", q, w, e);
+		}
+
+	}
 
 
 
@@ -20,4 +27,3 @@ bool  q = a <10 && a>3;
 
 
 
-}
