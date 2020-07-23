@@ -2,19 +2,13 @@
 
 
 int main() {
-	int n;
-	scanf_s("%d", &n);
-	
-	for (int i = 1; i <= n; i++) {
+	int arr[10] = { 1,3,5,7,9,11,13,15,17,18 };
 
-		
-		for (int j = 1; j <= 2*i-1; j++) {
+	for (int i = 0; i <= 9; i++) {
+		int sum = arr[i] * 5;
 
-			printf("%d", j);
-		}
-		printf("\n");
-
-		}
+		printf("%d\n", sum);
+	}
 
 	}
 
