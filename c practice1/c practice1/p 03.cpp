@@ -5,37 +5,19 @@
 
 int main(void)
 {
-	int a, b;
-	scanf_s("%d %d", &a,&b);
+	char grade = 0;
+	scanf_s("%c", &grade);
 
-	int arr[3][4];
-	
+	switch (grade) {
+	case 'A' :
+		printf("good");
+		break;
 
-	
-		for (int j = 0; j < a; j++){
-			
-			for (int i = 0; i < b; i++)
-			{
-				scanf_s("%d", &arr[j][i]);
+	case 'B':
+		printf("bad");
+		break;
 
-			}
-		}
-
-		for (int j = 0; j < a; j++) {
-			int sum = 0;
-			for (int i = 0; i < b; i++)
-			{
-				sum += arr[j][i];
-
-
-			}
-			
-			printf("%d\n",sum);
-
-		}
-		
-		
-
+	}
 
 	}
 
